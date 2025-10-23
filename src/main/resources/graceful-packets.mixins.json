@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "me.treeofself.gracefulpackets.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "ClientConnectionMixin",
+      "DecoderHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
