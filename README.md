@@ -1,3 +1,5 @@
+<img width="128" height="128" alt="icon" src="https://github.com/user-attachments/assets/866e47da-cdbc-408e-81c4-fe62f4a10ca8" />
+
 # Graceful Packets
 
 ## Description
