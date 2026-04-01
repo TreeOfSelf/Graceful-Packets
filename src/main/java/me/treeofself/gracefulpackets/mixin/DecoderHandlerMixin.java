@@ -3,7 +3,7 @@ package me.treeofself.gracefulpackets.mixin;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import me.treeofself.gracefulpackets.config.GracefulPacketsConfig;
-import net.minecraft.network.handler.DecoderHandler;
+import net.minecraft.network.PacketDecoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
 import java.util.List;
 
-@Mixin(DecoderHandler.class)
+@Mixin(PacketDecoder.class)
 public abstract class DecoderHandlerMixin {
 	private static final Logger LOGGER = LoggerFactory.getLogger("graceful-packets");
 
