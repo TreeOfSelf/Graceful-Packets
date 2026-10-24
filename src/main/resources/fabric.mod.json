@@ -8,8 +8,8 @@
 		"TreeOfSelf"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/graceful-packets",
+		"sources": "https://github.com/TreeOfSelf/Graceful-Packets"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/graceful-packets/icon.png",
@@ -26,8 +26,8 @@
 		"graceful-packets.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.6",
-		"minecraft": "~26.1.1",
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	}

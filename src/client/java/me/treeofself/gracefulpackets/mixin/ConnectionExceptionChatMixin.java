@@ -25,7 +25,7 @@ public abstract class ConnectionExceptionChatMixin {
 		if (client != null && client.player != null) {
 			Component line = Component.literal("Network Error: " + errorType + " - " + errorMsg)
 				.withStyle(ChatFormatting.RED);
-			client.execute(() -> client.gui.getChat().addClientSystemMessage(line));
+			client.execute(() -> client.gui.hud.getChat().addClientSystemMessage(line));
 		}
 	}
 }
